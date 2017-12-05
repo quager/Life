@@ -28,8 +28,8 @@
         <Label Content="Ширина:" Grid.Row="2" HorizontalContentAlignment="Right" Padding="10" />
         <Label Content="Высота:" Grid.Row="3" HorizontalContentAlignment="Right" Padding="10" />
         
-        <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="100" HorizontalAlignment="Left" Text="{Binding Path=Width, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
-        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="100" HorizontalAlignment="Left" Text="{Binding Path=Height, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="100" HorizontalAlignment="Left" Text="{Binding Path=Width, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="100" HorizontalAlignment="Left" Text="{Binding Path=Height, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
         <Border Grid.Row="5" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="0,2,0,0">
             <Border.Background>

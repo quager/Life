@@ -165,5 +165,10 @@ namespace Life.Pages
         {
             Model.InProgress = false;
         }
+
+        private void Border_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
